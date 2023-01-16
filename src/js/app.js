@@ -6,5 +6,17 @@ window.addEventListener("DOMContentLoaded", () => {
   const button = document.querySelector(".button");
   button.addEventListener("click", () => {
     alert("💣");
-  });
+  }); 
+
 });
+
+function myFunction() {
+    for (let i = 0; i <= 4; i++) {
+      var x = document.createElement("ARTICLE");
+      x.setAttribute("class", "message");
+      document.body.appendChild(x);
+  } 
+
+}
+
+myFunction()
